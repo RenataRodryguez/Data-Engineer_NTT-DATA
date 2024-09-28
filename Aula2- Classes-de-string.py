@@ -13,5 +13,5 @@ nome = input("Qual seu nome?")
 texto = "Seja bem vindo ao curso de Python"
 # print(texto, nome.strip().title())
 # print(texto, "-".join(nome).title())
-for abaco in nome:
-    print(abaco, end="-")
+for letra in nome:
+    print(letra, end="-")
